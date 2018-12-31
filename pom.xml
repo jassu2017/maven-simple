@@ -21,11 +21,12 @@
   
   <build>
     <plugin>
-    <artifactId>maven-javadoc-plugin</artifactId>
-    <configuration>
-      <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
-    </configuration>
+      <artifactId>maven-javadoc-plugin</artifactId>
+         <configuration>
+           <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
+         </configuration>
       </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
